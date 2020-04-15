@@ -5,23 +5,36 @@
     <meta name="inicio page" content="Header,body, Footer">
     <meta name="keywords" content="HTML,CSS">
     <meta name="author-Krusha, Muskan" content="Project 2">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+        <title>Inicio</title>
     <link rel="stylesheet" href="../css/ciudad.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <!-- header -->
-  <?php
-  include 'header.php';
-
-  ?>
-  </nav>
+  <header>
+    <nav>
+      <div class="fit-width pos_rel" id="top">
+        <div class="inline h_nav">
+          <img src='../assests/images/i.jpg' alt="logo" title="Genteociudad" class="h_logo">
+        </div>
+        <div class="inline pos_abs hc">
+          <p class="hc_name">
+            <a class="active" href="./inicio.html">Inicio</a>/
+            <a href="./nosotros.html">Nosotros</a>/
+                  <a href="./equipos.html">Equipos</a>/
+                  <a href="http://kxs3403.uta.cloud/" >Blog</a>/
+                  <a   href="./contacto.html">Contacto</a>/
+                  <a href="./inicio_de_sesion.html">Inicio de Sesion</a>/
+                  <a href="./sign_up.html">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </nav>
   </header>
-
   <!-- Header Ends -->
   <!-- inicio starts -->
   <body>
-  <div>
+  <div class="i_res">
     <div class="i_back">
         <div class="i_back1">
             <br><br><br>
@@ -39,7 +52,7 @@
         </div>
     </div>
 </div>
-<div>    
+<div class="i_res">    
     <table class="i_obv" align="center">
         <tr >
             <td align="center"> <h1><b> OBJETIVOS </b></h1>
@@ -56,7 +69,7 @@
 </div>
 <br><br>
 <div>    
-    <table class="i_nuestros" align="center" width="80%">
+    <table class="i_nuestros" align="center">
         <tr>
             <td align="center" colspan="3"> <h1><b> Nuestros  <font color="#FF7733">Valores </font> </b></h1>
                 
@@ -92,7 +105,7 @@
 
 
 <div style="display: -webkit-inline-box;width:100%;">
-<div style="width:50%;" class="i_s">
+<div class="i_s">
   <div class="i">
     <table class="i_table" style="border-collapse: collapse;">
       <tr>
@@ -121,7 +134,7 @@
   </div>
 </div>
 
-<div style="width:50%;" class="i_s1">
+<div class="i_s1">
   
 
     <td>
@@ -148,8 +161,8 @@
 <div class="i_s2">
 <div>
   <br><br><p align="center" style="PADDING: 0;MARGIN: 0;"><h2 align="center">NUESTROS ALIADOS <font class="i_estra"> <i>ESTRATEGICOS</i></font></h2></p>
-  <img src="../assests/images/image3.jpg" height="70px" width="13%" class="i_s3">
-  <img src="../assests/images/i.jpg" height="70px" width="13%" class="i_s3">
+  <img src="../assests/images/image3.jpg" height="85%" width="13%" class="i_s3">
+  <img src="../assests/images/i.jpg" height="85%" width="13%" class="i_s3">
   <p>&nbsp;</p>
 </div>
 
@@ -159,7 +172,7 @@
     Nuestros <i>Blog</i>
     <p>Esta sección esta pensada para integrar a los ciudadanos y poder tener un feedback directo con nuestra comunidad.</p>
   </div>
-  <div style="height:100%;">
+  <div class="i_res">
     <iframe src="http://mxj4567.uta.cloud/blog" style="margin-left: 20%; width:60%;"></iframe>  
   </div><br>
   <br>
@@ -170,7 +183,7 @@
 
 <!-- Body Ends -->
 <!-- Footer -->
-<footer>
+<footer id="bottom">
     <span style="clear:both"></span>
         <div class="f">
             <div class="f_search">

@@ -10,11 +10,25 @@
     <link rel="stylesheet" href="../css/ciudad.css">
   </head>
   <!-- header -->
-  <?php
-  include 'header.php';
-
-  ?>
-       <div class="class_banner txt-cntr fit-width">
+  <header>
+    <nav>
+      <div class="fit-width pos_rel" id="top">
+        <div class="inline h_nav">
+          <img src='../assests/images/i.jpg' alt="logo" title="Genteociudad" class="h_logo">
+        </div>
+        <div class="inline pos_abs hc">
+          <p class="hc_name">
+            <a href="./inicio.html">Inicio</a>/
+            <a href="./nosotros.html">Nosotros</a>/
+            <a class="active" href="./equipos.html">Equipos</a>/
+            <a href="http://kxs3403.uta.cloud/">Blog</a>/
+            <a href="./contacto.html">Contacto</a>/
+            <a href="./inicio_de_sesion.html">Inicio de Sesion</a>/
+                  <a href="./sign_up.html">Sign Up</a>
+          </p>
+        </div>
+      </div>
+       <div class="class_banner txt-cntr fit-width i_res">
         <h1>NUESTROS EQUIPOS</h1>
             <p>
                 <span>INICIO</span> &#62;
@@ -26,6 +40,7 @@
   <!-- Header Ends -->
   <!-- body starts  -->
   <body>
+  <div class="i_res">
   <div style="margin: 0% 10% 5% 2%; padding:0 10% 0 10%;">
     <div style="padding: 1% 2% 2% 2%;text-align: center;">
         <h1 style="opacity: 1;">Equipo de  <span class="active" style="font-family: montserratItalic;;">Direction</span></h1>
@@ -130,10 +145,11 @@
         </div>
     </div>
     </div>
+</div>
 </body>
   <!-- body ends -->
   <!-- footer starts -->
-  <footer>
+  <footer id="bottom">
     <span style="clear:both"></span>
         <div class="f">
             <div class="f_search">

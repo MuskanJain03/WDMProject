@@ -10,11 +10,26 @@
     <link rel="stylesheet" href="../css/ciudad.css">
   </head>
   <!-- header -->
-  <?php
-  include 'header.php';
-
-  ?>
-       <div class="class_banner txt-cntr fit-width">
+  <header>
+    <nav>
+      <div class="fit-width pos_rel" id="top">
+        <div class="inline h_nav">
+          <img src='../assests/images/i.jpg' alt="logo" title="Genteociudad" class="h_logo">
+        </div>
+        <div class="inline pos_abs hc">
+          <p class="hc_name">
+            <a  href="./inicio.html">Inicio</a>/
+            <a  href="./nosotros.html">Nosotros</a>/
+            <a href="./equipos.html">Equipos</a>/
+            <a href="http://kxs3403.uta.cloud/">Blog</a>/
+            <a class="active" href="./contacto.html">Contacto</a>/
+            <a href="./inicio_de_sesion.html">Inicio de Sesion</a>/
+            <a href="./sign_up.html">Sign Up</a>
+            
+          </p>
+        </div>
+      </div>
+       <div class="class_banner txt-cntr fit-width i_res">
         <h1>Contact US</h1>
         <p>
           <span>HOME</span> &#62;
@@ -26,6 +41,7 @@
   <!-- Header Ends -->
   <!-- body starts  -->
 <body>
+  <div class="i_res s_res2">
     <div class="c_main fit-width txt-cntr" id="wrapper">
       <div class="c_block1">
         <h1>
@@ -120,10 +136,11 @@
         </form>
       </div>
     </div>
+  </div>
   </body>
   <!-- *************** Body Ends ****************** -->
    <!-- footer starts -->
-  <footer>
+  <footer id="bottom" class="s_res">
    <div class="f">
       <h2 class="txt-cntr ltr-spac">Escribenos, te invitamos a brindar lo mejor de ti para el bien
         <br> comun, <span class="active">queremos conocer acerca de tus ideas para mejorar.</span>
